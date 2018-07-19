@@ -21,7 +21,7 @@ public class SafeCracker {
 for (int i = 0; i < 999999999;i++) {
 tryCode(i);
 	}
-
+	}
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
 
