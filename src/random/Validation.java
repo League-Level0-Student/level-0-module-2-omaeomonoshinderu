@@ -21,7 +21,19 @@ public class Validation {
 		System.out.println(randomNumber);
 
 		// 3. Use each value of randomNumber to give the user a random compliment.
-
+for(int i = 0; i < 10; i++ ) {
+		if (randomNumber == 1) {
+			JOptionPane.showMessageDialog(null, " Your hair is nice today");
+		} else if (randomNumber == 2) {
+			JOptionPane.showMessageDialog(null, "Nice car ");
+		} else if (randomNumber == 3) {
+			JOptionPane.showMessageDialog(null, " You look great today");
+		} else if (randomNumber == 4) {
+			JOptionPane.showMessageDialog(null, " Do austalian people say zedbra or zebra?");
+		} else if (randomNumber == 5) {
+			JOptionPane.showMessageDialog(null, " Good job");
+		} 
+} 
 		// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
