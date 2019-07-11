@@ -67,7 +67,7 @@ public class DiceRoll {
 			} else {
 				label.setIcon(sixImg);
 			}
-		});
+		}
 
 		panel.setPreferredSize(new Dimension(700, 700));
 		panel.add(rollButton);
